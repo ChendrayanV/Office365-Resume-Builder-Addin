@@ -8,4 +8,4 @@ foreach (char c in ("P@ssW0rd!").ToCharArray()) Password.AppendChar(c);
 context.Credentials = new SharePointOnlineCredentials("admin@contoso.onmicrosoft.com", Password);
 
 # Sample Output
-![image](https://github.com/ChendrayanV/Office365-Resume-Builder-Addin/blob/master/ResumeBuilder/Images/2016-10-21_12-19-12.png)
+[![mutt dark](https://github.com/altercation/solarized/raw/master/img/screen-mutt-dark-th.png)](https://github.com/altercation/solarized/raw/master/img/screen-mutt-dark.png))
