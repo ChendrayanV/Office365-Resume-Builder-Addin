@@ -7,4 +7,5 @@ This is a sample project and requires a change in clientcontext url and credenti
 foreach (char c in ("P@ssW0rd!").ToCharArray()) Password.AppendChar(c);
 context.Credentials = new SharePointOnlineCredentials("admin@contoso.onmicrosoft.com", Password);
 
-# Sample Output 
+# Sample Output
+![image](https://github.com/ChendrayanV/Office365-Resume-Builder-Addin/blob/master/ResumeBuilder/Images/2016-10-21_12-19-12.png)
