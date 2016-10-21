@@ -189,11 +189,9 @@ namespace ResumeBuilder
                     selection.TypeText(string.Concat("School Name", "\t", "\t", selection.Text = School.Replace('.', ' '), Environment.NewLine));
                     selection.TypeText(string.Concat("Instant Messenger", "\t", selection.Text = IM, Environment.NewLine));
                     selection.TypeText(string.Concat("Department", "\t", "\t", selection.Text = Department, Environment.NewLine));
-                    selection.TypeText(string.Concat("Languages", "\t", "\t", selection.Text = Languages));
+                    //selection.TypeText(string.Concat("Languages", "\t", "\t", selection.Text = Languages));
+                    selection.TypeText(string.Concat("Languages", "\t", "\t", selection.Text = CultureInfo.GetCultureInfo(Languages.Split(',')[0]).DisplayName));
                 }
-                
-                //selection.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter;
-
             }
         }
     }
