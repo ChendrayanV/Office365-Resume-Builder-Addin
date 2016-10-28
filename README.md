@@ -11,7 +11,7 @@ context.Credentials = new SharePointOnlineCredentials("admin@contoso.onmicrosoft
 [![mutt dark](https://github.com/ChendrayanV/Office365-Resume-Builder-Addin/blob/master/ResumeBuilder/Images/2016-10-21_12-19-12.png)](https://github.com/ChendrayanV/Office365-Resume-Builder-Addin/blob/master/ResumeBuilder/Images/2016-10-21_12-19-12.png))
 
 # Notes
-This is very basic code and to proper exception handling in place and the information are retrieved from SharePoint Online User Profile Properties. Do check the code and append your
+This is very basic code and no proper exception handling in place and the information are retrieved from SharePoint Online User Profile Properties. So, you need SP farm and required properties in user profiles. Do check the code and append your
 feedback.
 ### Work In Progress
 1. Export to PDF. 
